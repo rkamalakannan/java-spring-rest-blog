@@ -35,4 +35,8 @@ public class DatabaseLoader implements ApplicationRunner {
             randomPosts.add(post);
         });
     }
+    private final PostRepository()
+    {
+
+    }
 }
